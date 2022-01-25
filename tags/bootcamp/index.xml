@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Electrifying Blog</title>
-    <link>http://bahij-youssef.github.io/tags/blog/</link>
-    <description>Recent content in blog on Electrifying Blog</description>
+    <title>bootcamp on Electrifying Blog</title>
+    <link>http://bahij-youssef.github.io/tags/bootcamp/</link>
+    <description>Recent content in bootcamp on Electrifying Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Jan 2022 22:59:36 +0000</lastBuildDate>
     
-	<atom:link href="http://bahij-youssef.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bahij-youssef.github.io/tags/bootcamp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,15 +22,6 @@ SQL query select count(tpep_pickup_datetime) from yellow_taxi_data where cast(tp
 Question 3.2 Consider only trips that started on January 15
 SQL query select count(tpep_pickup_datetime) from yellow_taxi_data where cast(tpep_pickup_datetime as DATE) = &amp;#39;2021-01-15&amp;#39;; Result Count: 53024
 Question 4 SQL query select cast(tpep_pickup_datetime as DATE), max(tip_amount) from yellow_taxi_data group by cast(tpep_pickup_datetime as DATE) order by max(tip_amount) desc; Output +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;+ | tpep_pickup_datetime | max | |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;| | 2021-01-20 | 1140.</description>
-    </item>
-    
-    <item>
-      <title>This is the post title</title>
-      <link>http://bahij-youssef.github.io/posts/test/</link>
-      <pubDate>Sun, 23 Jan 2022 23:05:37 +0000</pubDate>
-      
-      <guid>http://bahij-youssef.github.io/posts/test/</guid>
-      <description>Just a test This is obviously just a test, but I can see myself posting more often considering how straight forward it is.</description>
     </item>
     
   </channel>

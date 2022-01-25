@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Homework - Week 1</title>
+    <meta name="description" content="Data Engineering Zoomcamp Week 1 - Homework">
+    <meta name="keywords" content='blog, gokarna, hugo, Electrifying, electrifying, Bahij, Youssef, data engineering, bootcamp, homework'>
+
+    <meta property="og:url" content="http://bahij-youssef.github.io/posts/de_zoomcamp_week1_homework/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Homework - Week 1">
+    <meta property="og:description" content="Data Engineering Zoomcamp Week 1 - Homework">
+    <meta property="og:image" content="https://images.pexels.com/photos/2635595/pexels-photo-2635595.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Homework - Week 1">
+    <meta name="twitter:description" content="Data Engineering Zoomcamp Week 1 - Homework">
+    <meta property="twitter:domain" content="http://bahij-youssef.github.io/posts/de_zoomcamp_week1_homework/">
+    <meta property="twitter:url" content="http://bahij-youssef.github.io/posts/de_zoomcamp_week1_homework/">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/2635595/pexels-photo-2635595.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
+
+    
+    <link rel="canonical" href="http://bahij-youssef.github.io/posts/de_zoomcamp_week1_homework/" />
+
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="/css/dark.css">
+
+    <script src="/js/svg-injector.min.js"></script>
+    <script src="/js/feather-icons.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://bahij-youssef.github.io/">
+                <img src="https://images.pexels.com/photos/2635595/pexels-photo-2635595.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://bahij-youssef.github.io/">Electrifying Blog</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="/about/"> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/bahij-youssef"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="/about/"> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/bahij-youssef"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>Homework - Week 1</h1>
+        <small role="doc-subtitle">Data Engineering Zoomcamp Week 1 - Homework</small>
+        <p class="post-date">
+            January 25, 2022
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="/tags/blog">blog</a></li>
+        
+            <li class="post-tag"><a href="/tags/data-engineering">data engineering</a></li>
+        
+            <li class="post-tag"><a href="/tags/bootcamp">bootcamp</a></li>
+        
+            <li class="post-tag"><a href="/tags/homework">homework</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <h1 id="week-1-homework">Week 1 homework</h1>
+<h2 id="question-31">Question 3.1</h2>
+<p>How many taxi trips were there on January 15?</p>
+<h3 id="sql-query">SQL query</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">select</span> <span style="color:#66d9ef">count</span>(tpep_pickup_datetime) 
+<span style="color:#66d9ef">from</span> yellow_taxi_data 
+<span style="color:#66d9ef">where</span> <span style="color:#66d9ef">cast</span>(tpep_pickup_datetime <span style="color:#66d9ef">as</span> DATE) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2021-01-15&#39;</span> 
+<span style="color:#66d9ef">and</span> <span style="color:#66d9ef">cast</span>(tpep_dropoff_datetime <span style="color:#66d9ef">as</span> DATE) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2021-01-15&#39;</span>;
+</code></pre></div><h3 id="result">Result</h3>
+<p>Count: 52768</p>
+<h2 id="question-32">Question 3.2</h2>
+<p>Consider only trips that started on January 15</p>
+<h3 id="sql-query-1">SQL query</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">select</span> <span style="color:#66d9ef">count</span>(tpep_pickup_datetime) 
+<span style="color:#66d9ef">from</span> yellow_taxi_data 
+<span style="color:#66d9ef">where</span> <span style="color:#66d9ef">cast</span>(tpep_pickup_datetime <span style="color:#66d9ef">as</span> DATE) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2021-01-15&#39;</span>;
+</code></pre></div><h3 id="result-1">Result</h3>
+<p>Count: 53024</p>
+<h2 id="question-4">Question 4</h2>
+<h3 id="sql-query-2">SQL query</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">select</span> <span style="color:#66d9ef">cast</span>(tpep_pickup_datetime <span style="color:#66d9ef">as</span> DATE), <span style="color:#66d9ef">max</span>(tip_amount) 
+<span style="color:#66d9ef">from</span> yellow_taxi_data 
+<span style="color:#66d9ef">group</span> <span style="color:#66d9ef">by</span> <span style="color:#66d9ef">cast</span>(tpep_pickup_datetime <span style="color:#66d9ef">as</span> DATE) 
+<span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> <span style="color:#66d9ef">max</span>(tip_amount) <span style="color:#66d9ef">desc</span>;
+</code></pre></div><h3 id="output">Output</h3>
+<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;+
+| tpep_pickup_datetime | max     |
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;|
+| 2021-01-20           | 1140.44 |
+| 2021-01-04           | 696.48  |
+| 2021-01-03           | 369.4   |
+| 2021-01-26           | 250.0   |
+| 2021-01-09           | 230.0   |
+| 2021-01-19           | 200.8   |
+| 2021-01-30           | 199.12  |
+| 2021-01-12           | 192.61  |
+| 2021-01-21           | 166.0   |
+| 2021-01-01           | 158.0   |
+| 2021-01-05           | 151.0   |
+| 2021-01-11           | 145.0   |
+| 2021-01-24           | 122.0   |
+| 2021-01-02           | 109.15  |
+| 2021-01-31           | 108.5   |
+| 2021-01-25           | 100.16  |
+| 2021-01-16           | 100.0   |
+| 2021-01-27           | 100.0   |
+| 2021-01-06           | 100.0   |
+| 2021-01-08           | 100.0   |
+| 2021-01-23           | 100.0   |
+| 2021-01-13           | 100.0   |
+| 2021-01-15           | 99.0    |
+| 2021-01-07           | 95.0    |
+| 2021-01-14           | 95.0    |
+| 2021-01-22           | 92.55   |
+| 2021-01-10           | 91.0    |
+| 2021-01-18           | 90.0    |
+| 2021-01-28           | 77.14   |
+| 2021-01-29           | 75.0    |
+| 2021-01-17           | 65.0    |
+| 2020-12-31           | 4.08    |
+| 2021-02-22           | 1.76    |
+| 2021-02-01           | 1.54    |
+| 2008-12-31           | 0.0     |
+| 2009-01-01           | 0.0     |
++&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;+</p>
+<h3 id="answer">Answer</h3>
+<p>The largest tip was $1140.44 on 2021-01-20.</p>
+<h3 id="observation">Observation</h3>
+<p>Not sure if this is a genuine entry or just bad data, don&rsquo;t have enough info to make my mind up.
+Also, it looks like there are a couple of random stray dates (2008 &amp; 2009).</p>
+<h2 id="question-5">Question 5</h2>
+<h3 id="sql-query-3">SQL query</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">with</span> location_names <span style="color:#66d9ef">as</span> (<span style="color:#66d9ef">select</span> zpu.<span style="color:#e6db74">&#34;Zone&#34;</span><span style="color:#66d9ef">as</span> pu_loc, zdo.<span style="color:#e6db74">&#34;Zone&#34;</span> <span style="color:#66d9ef">as</span> do_loc
+                        <span style="color:#66d9ef">from</span> yellow_taxi_data ytd, zones zpu, zones zdo 
+                        <span style="color:#66d9ef">where</span> ytd.<span style="color:#e6db74">&#34;PULocationID&#34;</span> <span style="color:#f92672">=</span> zpu.<span style="color:#e6db74">&#34;LocationID&#34;</span> 
+                        <span style="color:#66d9ef">and</span> ytd.<span style="color:#e6db74">&#34;DOLocationID&#34;</span> <span style="color:#f92672">=</span> zdo.<span style="color:#e6db74">&#34;LocationID&#34;</span> 
+                        <span style="color:#66d9ef">and</span> <span style="color:#66d9ef">cast</span>(ytd.<span style="color:#e6db74">&#34;tpep_pickup_datetime&#34;</span> <span style="color:#66d9ef">as</span> date) <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;2021-01-14&#39;</span>) 
+                        <span style="color:#66d9ef">select</span> coalesce(do_loc, <span style="color:#e6db74">&#39;Unknown&#39;</span>) <span style="color:#66d9ef">as</span> drop_off_location, <span style="color:#66d9ef">count</span>(do_loc) 
+                        <span style="color:#66d9ef">from</span> location_names 
+                        <span style="color:#66d9ef">where</span> pu_loc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Central Park&#39;</span> 
+                        <span style="color:#66d9ef">group</span> <span style="color:#66d9ef">by</span> do_loc 
+                        <span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> <span style="color:#66d9ef">count</span>(do_loc) <span style="color:#66d9ef">desc</span>;
+</code></pre></div><h3 id="top-3-output">Top 3 output</h3>
+<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+&mdash;&mdash;-+
+| drop_off_location              | count |
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+&mdash;&mdash;-|
+| Upper East Side South          | 97    |
+| Upper East Side North          | 94    |
+| Lincoln Square East            | 83    |</p>
+<h3 id="answer-1">Answer</h3>
+<p>Upper East Side South is the most popular location for pick ups from Central Park</p>
+<h2 id="question-6">Question 6</h2>
+<h3 id="sql-query-4">SQL query</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">with</span> location_pairing_cost <span style="color:#66d9ef">as</span> (<span style="color:#66d9ef">select</span> coalesce(zpu.<span style="color:#e6db74">&#34;Zone&#34;</span>, <span style="color:#e6db74">&#39;Unknown&#39;</span>) <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39; / &#39;</span> <span style="color:#f92672">||</span> coalesce(zdo.<span style="color:#e6db74">&#34;Zone&#34;</span>, <span style="color:#e6db74">&#39;Unknown&#39;</span>) <span style="color:#66d9ef">as</span> pu_do_pairing,
+ytd.<span style="color:#e6db74">&#34;total_amount&#34;</span> <span style="color:#66d9ef">as</span> trip_cost 
+<span style="color:#66d9ef">from</span> yellow_taxi_data ytd, zones zpu, zones zdo 
+<span style="color:#66d9ef">where</span> ytd.<span style="color:#e6db74">&#34;PULocationID&#34;</span> <span style="color:#f92672">=</span> zpu.<span style="color:#e6db74">&#34;LocationID&#34;</span> 
+<span style="color:#66d9ef">and</span> ytd.<span style="color:#e6db74">&#34;DOLocationID&#34;</span> <span style="color:#f92672">=</span> zdo.<span style="color:#e6db74">&#34;LocationID&#34;</span>) 
+<span style="color:#66d9ef">select</span> pu_do_pairing, <span style="color:#66d9ef">avg</span>(trip_cost) 
+<span style="color:#66d9ef">from</span> location_pairing_cost 
+<span style="color:#66d9ef">group</span> <span style="color:#66d9ef">by</span> pu_do_pairing 
+<span style="color:#66d9ef">order</span> <span style="color:#66d9ef">by</span> <span style="color:#66d9ef">avg</span>(trip_cost) <span style="color:#66d9ef">desc</span>;
+</code></pre></div><h3 id="top-10-output">Top 10 output</h3>
+<p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+
+| pu_do_pairing                                                             | avg                 |
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;|
+| Alphabet City / Unknown                                                   | 2292.4              |
+| Union Sq / Canarsie                                                       | 262.852             |
+| Ocean Hill / Unknown                                                      | 234.51              |
+| Long Island City/Hunters Point / Clinton East                             | 207.61              |
+| Boerum Hill / Woodside                                                    | 200.3               |
+| Baisley Park / Unknown                                                    | 181.44249999999997  |
+| Bushwick South / Long Island City/Hunters Point                           | 156.96              |
+| Willets Point / Unknown                                                   | 154.42              |
+| Co-Op City / Dyker Heights                                                | 151.37              |
+| Rossville/Woodrow / Pelham Bay Park                                       | 151.0               |</p>
+<h3 id="answer-2">Answer</h3>
+<p>Alphabet City / Unknown has the highest average. Again this doesn&rsquo;t look realistic, I&rsquo;ll therefore go with Union Sq / Canarsie.</p>
+
+        </p>
+    </div>
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Bahij Youssef</span>
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Electrifying Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 23:05:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jan 2022 22:59:36 +0000</lastBuildDate>
     
 	<atom:link href="http://bahij-youssef.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>blog</title>
       <link>http://bahij-youssef.github.io/tags/blog/</link>
-      <pubDate>Sun, 23 Jan 2022 23:05:37 +0000</pubDate>
+      <pubDate>Tue, 25 Jan 2022 22:59:36 +0000</pubDate>
       
       <guid>http://bahij-youssef.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bootcamp</title>
+      <link>http://bahij-youssef.github.io/tags/bootcamp/</link>
+      <pubDate>Tue, 25 Jan 2022 22:59:36 +0000</pubDate>
+      
+      <guid>http://bahij-youssef.github.io/tags/bootcamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data engineering</title>
+      <link>http://bahij-youssef.github.io/tags/data-engineering/</link>
+      <pubDate>Tue, 25 Jan 2022 22:59:36 +0000</pubDate>
+      
+      <guid>http://bahij-youssef.github.io/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homework</title>
+      <link>http://bahij-youssef.github.io/tags/homework/</link>
+      <pubDate>Tue, 25 Jan 2022 22:59:36 +0000</pubDate>
+      
+      <guid>http://bahij-youssef.github.io/tags/homework/</guid>
       <description></description>
     </item>
     

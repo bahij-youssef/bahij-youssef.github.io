@@ -12,6 +12,19 @@
     
     
     <item>
+      <title>Homework - Week 1</title>
+      <link>http://bahij-youssef.github.io/posts/de_zoomcamp_week1_homework/</link>
+      <pubDate>Tue, 25 Jan 2022 22:59:36 +0000</pubDate>
+      
+      <guid>http://bahij-youssef.github.io/posts/de_zoomcamp_week1_homework/</guid>
+      <description>Week 1 homework Question 3.1 How many taxi trips were there on January 15?
+SQL query select count(tpep_pickup_datetime) from yellow_taxi_data where cast(tpep_pickup_datetime as DATE) = &amp;#39;2021-01-15&amp;#39; and cast(tpep_dropoff_datetime as DATE) = &amp;#39;2021-01-15&amp;#39;; Result Count: 52768
+Question 3.2 Consider only trips that started on January 15
+SQL query select count(tpep_pickup_datetime) from yellow_taxi_data where cast(tpep_pickup_datetime as DATE) = &amp;#39;2021-01-15&amp;#39;; Result Count: 53024
+Question 4 SQL query select cast(tpep_pickup_datetime as DATE), max(tip_amount) from yellow_taxi_data group by cast(tpep_pickup_datetime as DATE) order by max(tip_amount) desc; Output +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;+ | tpep_pickup_datetime | max | |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;| | 2021-01-20 | 1140.</description>
+    </item>
+    
+    <item>
       <title>About me</title>
       <link>http://bahij-youssef.github.io/about/</link>
       <pubDate>Mon, 24 Jan 2022 20:58:37 +0000</pubDate>
