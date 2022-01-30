@@ -24,14 +24,5 @@ SQL query select count(tpep_pickup_datetime) from yellow_taxi_data where cast(tp
 Question 4 SQL query select cast(tpep_pickup_datetime as DATE), max(tip_amount) from yellow_taxi_data group by cast(tpep_pickup_datetime as DATE) order by max(tip_amount) desc; Output +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;+ | tpep_pickup_datetime | max | |&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;| | 2021-01-20 | 1140.</description>
     </item>
     
-    <item>
-      <title>This is the post title</title>
-      <link>http://bahij-youssef.github.io/posts/test/</link>
-      <pubDate>Sun, 23 Jan 2022 23:05:37 +0000</pubDate>
-      
-      <guid>http://bahij-youssef.github.io/posts/test/</guid>
-      <description>Just a test This is obviously just a test, but I can see myself posting more often considering how straight forward it is.</description>
-    </item>
-    
   </channel>
 </rss>
