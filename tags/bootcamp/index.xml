@@ -6,10 +6,21 @@
     <description>Recent content in bootcamp on Electrifying Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jan 2022 22:59:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Feb 2022 22:42:52 +0000</lastBuildDate>
     
 	<atom:link href="http://bahij-youssef.github.io/tags/bootcamp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>De_zoomcamp_week3_homework</title>
+      <link>http://bahij-youssef.github.io/posts/de_zoomcamp_week3_homework/</link>
+      <pubDate>Wed, 09 Feb 2022 22:42:52 +0000</pubDate>
+      
+      <guid>http://bahij-youssef.github.io/posts/de_zoomcamp_week3_homework/</guid>
+      <description>DE Zoomcamp Week 3 Homework Question 1 Q: What is count for fhv vehicles data for year 2019 A: 42,084,899 Query:
+SELECT COUNT(1) FROM `friendly-datum-339015.trips_data_all.fhv_data` WHERE EXTRACT(YEAR from pickup_datetime) = 2019; Question 2 Q: How many distinct dispatching_base_num we have in fhv for 2019 A: 792 Query:
+SELECT COUNT(dbn) FROM (SELECT DISTINCT dispatching_base_num as dbn FROM `friendly-datum-339015.trips_data_all.fhv_data` WHERE EXTRACT(YEAR from pickup_datetime) = 2019); Question 3 Q: Best strategy to optimise if query always filter by dropoff_datetime and order by dispatching_base_num</description>
+    </item>
     
     <item>
       <title>Homework - Week 1</title>
