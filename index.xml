@@ -45,7 +45,7 @@ Question 4 SQL query select cast(tpep_pickup_datetime as DATE), max(tip_amount) 
       <pubDate>Mon, 24 Jan 2022 20:58:37 +0000</pubDate>
       
       <guid>http://bahij-youssef.github.io/about/</guid>
-      <description>My name is Bahij Youssef, I&amp;rsquo;m an Electrical Engineer with a deep interest in the fields of data engineering &amp;amp; data science.</description>
+      <description>I am an Electrical Engineer turned Data Engineer working in the energy sector.</description>
     </item>
     
   </channel>
